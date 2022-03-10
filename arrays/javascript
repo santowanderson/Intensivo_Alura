@@ -1,0 +1,14 @@
+var listaFilmes = ["Yesterday", "A chegada", "Escola de Rock"]
+listaFilmes.push("Harry Potter")
+listaFilmes.push("Jurassic Park")
+listaFilmes.push("Jurassic World")
+listaFilmes.push("Jurassic World 2")
+
+console.log(listaFilmes.length)
+
+
+//    valor inicial   condição  expressão final
+for (var indice = 0; indice < listaFilmes.length; indice++) {
+ document.write("<p>" + indice + "</p>") 
+ document.write("<p>" + listaFilmes[indice] + "</p>")
+}
